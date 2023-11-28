@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- el tipo de simbolos que podes utilizar-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- compatibilidad con los navegadores viejos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- escala o diseño responsivo-->
+    <title>Document</title> <!-- nombre de la web en la pestaña-->
+</head>
+
+<body> <!-- todo lo que se ponga dentro es lo que el usuario va a visualizar-->
+    <!-- esto es un comentario  -->
+    <!-- elementos bloque y linea-->
+    <!-- landingpage es todo en una sola pag-->
+    <!-- encabezados--> <!--desde h1 a h6 solo se permite un h1 por hoja-->
+
+    <h1>titulo</h1>
+    <h6> subtitulo </h6>
+
+    <!-- parrafos-->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus rem ut beatae omnis, praesentium fuga nisi <br>
+        laboriosam sunt facere aut eveniet necessitatibus rerum fugit dolores natus quasi veritatis minus vitae.</p>
+    <!-- espacios, enfasis y bold-->
+    <br> <!--salto de linea-->
+    <em> lalala</em> <!--emfasis o cursiva-->
+    <strong> negrita</strong> <!--texto en negrita-->
+
+    <!-- semantica-->
+    <header>
+        <nav></nav> <!--listado navegador-->
+    </header> <!--superior-->
+    <section>
+        <a href=""></a> <!--insertar archivo-->
+    </section> <!--entabla seccion-->
+    <footer></footer> <!-- pie de pagina-->
+    <!-- div y span-->
+    <div></div><!-- elementos en bloque por default-->
+    <span></span> <!--elementos en linea por default-->   
+    
+    <!--enlaces-->
+    <!--enlace absoluto es el que nos redirecciona a una web externa colocando dentro del href el lugar donde direccionar-->
+    <a href="https://google.com.ar">
+        ver mas
+    </a> <br> <!--todo lo que este dentro es clickeable-->
+     <!--enlaces relativos son los que redireccionan a ubicaciones dentro del proyecto o archivos dentro de proyecto-->
+     <a href="servicios.html"> <!--control+click o cmd+click corrobora la ubicacion del archivo sea correcta-->
+        Ver servicios
+     </a><br>
+    <!-- enlace interno | realiza una busqueda dentro de la pagina donde relaciona la palabra con el hashtag o numeral  se ubica media el id -->
+    <a href="#contacto"> 
+        Hablemos
+    </a>
+
+    <section id="contacto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, laboriosam fugit. Aperiam sapiente ex expedita fugiat dolorem aliquam, beatae nobis nihil impedit quis repudiandae temporibus veniam explicabo tenetur suscipit nam?
+    </section>
+
+    <!-- enlace relativo +interno | genera la ubicacion del archivo mediante el link y localiza el punto a buscar dentro del nuevo archivo scroleando hasta la ubicacion deseada  -->
+    <a href="servicios.html#plataforma">
+        nuestra plataforma
+    </a>
+     <!-- imagenes , videos , audio e inframe-->
+    <!--src es source (ubicacion del archivo interno o externo)
+         alt es el texto descriptivo la imagen en caso de fallo de ruta ayuda al acceso buscando por ese nombre -->
+<img src="img/descarga.jpg" alt="escudo midland">
+
+<!--agregando ubicacion en la zona de comillas de src-->
+<video src=""></video>
+<audio src=""></audio>
+
+<!--iframe extracto del codigo html de la web donde estas extraccion el elemento multimedia-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13127.117227933188!2d-58.565810549999995!3d-34.66027604999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7d0d244e3fd%3A0x67f0248e8df66007!2sColegio%20Don%20Bosco%20Ramos%20Mej%C3%ADa!5e0!3m2!1ses-419!2sar!4v1697859464588!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+
+
+</html>
